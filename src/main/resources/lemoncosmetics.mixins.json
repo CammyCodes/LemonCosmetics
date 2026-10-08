@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "com.smartypantsltd.lemoncosmetics.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "verbose": false,
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "HumanoidMobRendererMixin",
+    "ItemModelResolverMixin",
+    "MinecraftMixin",
+    "OptionsMixin"
+  ],
+  "mixins": []
+}

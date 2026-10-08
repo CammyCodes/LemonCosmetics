@@ -1,0 +1,20 @@
+# Build output
+.gradle/
+build/
+out/
+bin/
+run/
+*.class
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# Tool scratch
+tools/**/__pycache__/
+tools/**/out/
+
+# The server's own assets never go in this repo: the mod reads them from the
+# pack the game already downloaded.
+*.zip
